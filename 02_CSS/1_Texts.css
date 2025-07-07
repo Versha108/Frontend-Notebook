@@ -1,0 +1,30 @@
+/******************************
+------------ Text ------------
+Text properties allow one to manipulate alignment, spacing, decoration, indentation, etc., in the document.
+*******************************/
+
+/* Applies to all tags with class 'container' 
+
+   Example: <div class="container"></div> */
+.container {
+  /* Word Spacing: space between words */
+  word-spacing: 0.25em;
+
+  /* Text Transform: converts text to uppercase */
+  text-transform: uppercase;
+
+  /* Text Indent: indentation for the first line */
+  text-indent: 0.5cm;
+
+  /* Line Height: vertical spacing between lines */
+  line-height: normal;
+
+  /* Text Align: aligns text (left, right, center, justify) */
+  text-align: justify;
+
+  /* Letter Spacing: space between letters */
+  letter-spacing: 0.15em;
+
+  /* Text Decoration: underline, overline, line-through, none */
+  text-decoration: underline;
+}
