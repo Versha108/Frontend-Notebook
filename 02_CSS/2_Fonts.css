@@ -1,0 +1,33 @@
+/**
+------------ Font ------------
+There are many properties related to the font, such as the face, weight, style, etc. These
+properties allow you to change the style or complete look of your text.
+**/
+
+/** Body Selector which applies properties to whole body <body></body> */
+body {
+  /* Font-Family */
+  /* If the first font doesn't exist, others will be used in order */
+  /* Specifies the font stack — uses the first available font in order. */
+  font-family: "Segoe UI", Tahoma, sans-serif;
+
+  /* Font-Style */
+  /* Controls the style: normal, italic, or oblique. */
+  font-style: italic;
+
+  /* Font-Variant */
+  /* Transforms lowercase letters to small uppercase letters. */
+  font-variant: small-caps;
+
+  /* Font-Weight */
+  /* Sets the thickness of the font (e.g., normal, bold, 400, 700). */
+  font-weight: bold;
+
+  /* Font-Size */
+  /* Sets the size of the font (px, em, rem, larger, etc.) */
+  font-size: 16px;
+
+  /* Shorthand Font Property */
+  /* Correct format (you can omit optional ones if not needed): */
+  font: italic small-caps bold 16px "Segoe UI", Tahoma, sans-serif;
+}
