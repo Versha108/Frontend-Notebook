@@ -1,0 +1,27 @@
+/*************************** Border ***************************
+
+  Border properties are used to style the edges of elements like buttons, divs, etc.
+  They control width, style, color, and rounded corners.
+
+***************************************************************/
+
+div,
+.container {
+  /* Shorthand Border (width style color) */
+  /* Example: border: 5px solid aqua; */
+  border: 5px solid aqua;
+
+  /* Or use individual properties: */
+
+  /* Border Width */
+  border-width: 5px;
+
+  /* Border Style */
+  border-style: solid;
+
+  /* Border Color */
+  border-color: aqua;
+
+  /* Border Radius (for rounded corners) */
+  border-radius: 15px;
+}
