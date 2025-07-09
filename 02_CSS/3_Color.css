@@ -1,0 +1,31 @@
+/*************************** Colors
+
+  The `color` property is used to set the color of text.
+  Colors can be defined using:
+  - Named colors (e.g., cornsilk)
+  - Hex codes (e.g., #fff8dc)
+  - RGBA (e.g., rgba(255, 248, 220, 1))
+  - HSL (e.g., hsl(48, 100%, 93%))
+  `opacity` affects the transparency of the entire element.
+
+*******************************/
+
+p,
+span,
+.text {
+  /* Named Color */
+  /* Only one 'color' will take effect; this is for demo purposes */
+  color: cornsilk;
+
+  /* Hexadecimal Color */
+  color: #fff8dc;
+
+  /* RGBA Color (Red, Green, Blue, Alpha) */
+  color: rgba(255, 248, 220, 1);
+
+  /* HSL Color (Hue, Saturation, Lightness) */
+  color: hsl(48, 100%, 93%);
+
+  /* Opacity for the whole element (0 = transparent, 1 = fully visible) */
+  opacity: 1;
+}
